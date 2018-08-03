@@ -1,0 +1,118 @@
+/* Document */
+
+body {
+	font-family: 'Muli', sans-serif;
+	padding: 0;
+	margin: 0;
+	background-color: #fff;
+	color: #000000;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+ 	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+  	-o-background-size: cover;
+ 	background-size: cover;
+
+}
+
+	
+}
+
+
+p {
+	letter-spacing: -0.07rem;
+	margin: 1rem 0;
+	padding: 0;
+	line-height: 1.35rem;
+
+}
+	
+
+
+a, a:visited {
+		color: #1640ff;
+		text-decoration: none;
+}
+
+
+
+a:hover, a:active { 
+		color: #1236DA;		
+  		-webkit-transition: background .15s cubic-bezier(.33,.66,.66,1);
+	    transition: background .15s cubic-bezier(.33,.66,.66,1);
+	    text-decoration: none;
+  		
+} 
+
+
+
+
+/* Queries */
+
+
+@media (max-width: 1600px) {
+  
+  html {
+  	font-size: 70px;
+  	-webkit-box-shadow:inset 0px 0px 0px 25px #1640ff;
+  	-moz-box-shadow:inset 0px 0px 0px 25px #1640ff;
+  	box-shadow:inset 0px 0px 0px 25px #1640ff;}
+
+#wrapper {
+	max-width: 70%;
+	margin: 250px auto;}
+
+p {
+	letter-spacing: -0.06rem;
+	line-height: 1.35rem;}
+
+}
+
+
+
+@media (max-width: 1400px) {
+  
+  html {
+  	font-size: 60px; 
+    -webkit-box-shadow:inset 0px 0px 0px 20px ##1640ff;
+    -moz-box-shadow:inset 0px 0px 0px 20px #1640ff;
+    box-shadow:inset 0px 0px 0px 20px #1640ff;}
+	
+#wrapper {
+	max-width: 70%;
+	margin: 150px auto; }
+	
+}
+
+
+@media (max-width: 1000px) {
+  
+  html {
+  	font-size: 45px; 
+    -webkit-box-shadow:inset 0px 0px 0px 15px ##1640ff;
+    -moz-box-shadow:inset 0px 0px 0px 15px #1640ff;
+    box-shadow:inset 0px 0px 0px 15px #1640ff;}
+
+#wrapper {
+	max-width: 70%;
+	margin: 120px auto; }
+	
+}
+
+
+@media (max-width: 700px) {
+  
+  html { 
+  	font-size: 30px;
+  	-webkit-box-shadow:inset 0px 0px 0px 10px ##1640ff;
+    -moz-box-shadow:inset 0px 0px 0px 10px #1640ff;
+    box-shadow:inset 0px 0px 0px 10px #1640ff;}
+	
+#wrapper {
+	max-width: 70%;
+	margin: 80px auto;}
+	
+}
+
+

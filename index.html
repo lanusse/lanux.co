@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" /> 
+		<meta name="author" content="Lanusse Castro" /> 
+		<meta name="description" content="lanusse castro - designer." /> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		
+		<link rel="shortcut icon" href="favicon.ico" />
+		<link rel="stylesheet" href="stylesheets/normalize.css" media="screen" />
+		<link rel="stylesheet" href="stylesheets/base.css" media="screen" />
+		<link rel="stylesheet" href="https://use.typekit.net/oqm2clk.css">
+		<script
+  src="https://code.jquery.com/jquery-1.8.3.js"
+  integrity="sha256-dW19+sSjW7V1Q/Z3KD1saC6NcE5TUIhLJzJbrdKzxKc="
+  crossorigin="anonymous"></script>
+		<title>Lanusse Castro - Designer</title>
+</head>
+
+<body>
+<div>
+	<div id="wrapper">
+		<p>hi.</a>
+
+		<p>i'm <a href="http://www.twitter.com/lanux" id="circle">lanusse</a>, a digital designer currently working at <a href="http://www.hugeinc.com" id="work">huge</a> in brooklyn, NY. </p>
+
+		<p>while partnering with a lot of talented people i've been able to ideate and draw the future of digital products for a couple of heavyweight latin america and worldwide clients such as <a href="http://www.oi.com.br">oi</a>, <a href="http://www.bradesco.com.br">bradesco</a>, <a href="http://www.claro.com.br">claro</a>, <a href="http://www.abril.com.br">editora abril</a>, <a href="http://www.discovery.com">discovery channel</a>, <a href="http://www.nestle.com">nestlé</a>, <a href="http://www.mcdonalds.com">mcdonald's</a>, <a href="http://www.chase.com">chase</a>, <a href="http://www.motorola.com">motorola</a>, <a href="http://www.google.com">google</a> and <a href="http://www.apple.com">apple</a> in a variety of creative and large-complex projects.</p>
+
+	
+		<p>i tend to keep all things <a href="https://www.youtube.com/watch?v=cJMwBwFj5nQ" id="zen">zen</a> and i strongly believe in <a  href="https://www.youtube.com/watch?v=uAXtO5dMqEI" id="spoon">bending the spoon</a> to create exciting work that is simple to the brain and delightful to the heart.</p> 
+
+		<p>so what?</p>
+
+		<p>this portfolio is currently on hold so keep in touch with the basics - <a href="https://www.linkedin.com/in/lanussecastro">linkedin</a>, <a href="http://www.twitter.com/lanux">twitter</a>, <a href="https://www.instagram.com/lanux/">instagram</a> - to get a sense of what's going on.</p>
+	</div>
+</div>
+
+<!-- analytics -->
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-210740-4', 'auto');
+		  ga('send', 'pageview');
+		</script>
+
+<!--image-->
+	<script> 
+	$(document).ready(function() {
+   
+    //Preload
+       $('<img/>').hide().attr('src', 'images/circle.gif').load(function(){
+       $('body').append($(this));
+    });
+
+       
+       $('<img/>').hide().attr('src', 'images/work.gif').load(function(){
+       $('body').append($(this));
+    });
+
+    	$('<img/>').hide().attr('src', 'images/zen.gif').load(function(){
+        $('body').append($(this));
+    });
+
+        $('<img/>').hide().attr('src', 'images/spoon.gif').load(function(){
+      	$('body').append($(this));
+    });
+
+    
+    //show
+
+        $('#circle').hover(function() {
+        $('body').css('background-image', 'url("images/circle.gif")');
+    }, function() {
+        $('body').css('background', '');
+    });
+
+        $('#work').hover(function() {
+        $('body').css('background-image', 'url("images/work.gif")');
+    }, function() {
+        $('body').css('background', '');
+    });
+
+	   	$('#zen').hover(function() {
+        $('body').css('background-image', 'url("images/zen.gif")');
+    }, function() {
+        $('body').css('background', '');
+    });
+
+	   	$('#spoon').hover(function() {
+        $('body').css('background-image', 'url("images/spoon.gif")');
+    }, function() {
+        $('body').css('background', '');
+    });
+});
+
+</script>
+
+</body>
+</html>
