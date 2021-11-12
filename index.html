@@ -21,18 +21,18 @@
 <body>
 <div>
 	<div id="wrapper">
-		<p>hi.</a>
+		<p>Hi.</a>
 
-		<p>i'm <a href="http://www.twitter.com/lanux" id="circle">lanusse</a>, a brazilian product designer currently working at <a href="http://www.hugeinc.com" id="work">huge</a> in brooklyn, NY. </p>
+		<p>I'm <a https://www.linkedin.com/in/lanussecastro/" id="circle">Lanusse Castro</a>, a brazilian design director currently crafting the future of ecommerce at <a href="https://vtex.com/us-en/" id="vtex">VTEX</a> in New York, NY. </p>
 
-		<p>while partnering with a lot of talented people i've been able to ideate and draw the future of digital products for a couple of heavyweight global and latin america clients such as <a href="http://www.oi.com.br">oi</a>, <a href="http://www.bradesco.com.br">bradesco</a>, <a href="http://www.claro.com.br">claro</a>, <a href="http://www.abril.com.br">editora abril</a>, <a href="http://www.discovery.com">discovery channel</a>, <a href="http://www.nestle.com">nestlé</a>, <a href="http://www.mcdonalds.com">mcdonald's</a>, <a href="http://www.chase.com">chase</a>, <a href="http://www.motorola.com">motorola</a>, <a href="http://www.google.com">google</a> and <a href="http://www.apple.com">apple</a> in a variety of creative and large-complex projects.</p>
+		<p>Previously working at <a href="http://www.elephant.is" id="elephant">Elephant</a> and <a href="http://www.hugeinc.com" id="work">Huge</a>, I've been able to ideate and draw the future of digital products for big brands such as <a href="http://www.apple.com">Apple</a>, <a href="http://www.google.com">Google</a>, <a href="https://www.nestle.com/">Nestlé</a>, <a href="http://www.discovery.com">Discovery Channel</a>, <a href="https://www.sk-ii.com/">SK-II</a>, <a href="http://www.mcdonalds.com">McDonald's</a>, <a href="http://www.chase.com">Chase</a>,  and <a href="http://www.motorola.com">Motorola</a>,  in a variety of creative and large-complex projects.</p>
 
 	
-		<p>i tend to keep all things <a href="https://www.youtube.com/watch?v=cJMwBwFj5nQ" id="zen">zen</a> and i strongly believe in <a  href="https://www.youtube.com/watch?v=uAXtO5dMqEI" id="spoon">bending the spoon</a> to create exciting work that is simple to the brain and delightful to the heart.</p> 
+		<p>I tend to keep all things <a href="https://www.youtube.com/watch?v=cJMwBwFj5nQ" id="zen">zen</a> and I strongly believe in <a  href="https://www.youtube.com/watch?v=uAXtO5dMqEI" id="spoon">bending the spoon</a> to create exciting work that is simple to the brain and delightful to the heart.</p> 
 
-		<p>so what?</p>
+		<p>I also believe empathy is the key, quality is the best business and inspiration is the best company.</p>
 
-		<p>this portfolio is currently on hold, so keep in touch with the basics: <a href="https://www.linkedin.com/in/lanussecastro">linkedin</a>, <a href="http://www.twitter.com/lanux">twitter</a>, <a href="https://www.instagram.com/lanux/">instagram</a>.</p>
+		<p><a href="https://www.linkedin.com/in/lanussecastro">LinkedIn</a>, <a href="http://www.twitter.com/lanux">Twitter</a>, <a href="https://www.instagram.com/lanux/">Instagram</a>.</p>
 	</div>
 </div>
 
@@ -52,11 +52,17 @@
 	$(document).ready(function() {
    
     //Preload
+
+
        $('<img/>').hide().attr('src', 'images/circle.gif').load(function(){
        $('body').append($(this));
     });
 
-       
+       $('<img/>').hide().attr('src', 'images/elephant.gif').load(function(){
+       $('body').append($(this));
+    });
+
+      
        $('<img/>').hide().attr('src', 'images/work.gif').load(function(){
        $('body').append($(this));
     });
@@ -74,6 +80,18 @@
 
         $('#circle').hover(function() {
         $('body').css('background-image', 'url("images/circle.gif")');
+    }, function() {
+        $('body').css('background', '');
+    });
+
+     $('#elephant').hover(function() {
+        $('body').css('background-image', 'url("images/elephant.gif")');
+    }, function() {
+        $('body').css('background', '');
+    });
+
+        $('#vtex').hover(function() {
+        $('body').css('background-image', 'url("images/vtex.gif")');
     }, function() {
         $('body').css('background', '');
     });
